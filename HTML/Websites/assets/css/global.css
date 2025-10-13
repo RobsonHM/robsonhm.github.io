@@ -3,7 +3,16 @@
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
-body { line-height: 1.5; min-height: 100vh }
+
+body { 
+    line-height: 1.5; min-height: 100vh; background-color: #ffefd5;
+    background-image: url('/Users/lordcroft/Documents/GitHub/HTML/HTML/websites/assets/img/techcover.jpg');
+    background-size: cover;          
+    background-repeat: no-repeat;   
+    background-position: center center;
+}
+
+
 img { width: 100%; height: auto }
 @media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
 @media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
@@ -89,32 +98,57 @@ section { max-width: 1920px }
 section > * { max-width: 1600px }
 
 /* When content width < viewport width, equalise spacing at left and right */
-section > * { max-width: 1600px; margin-left: auto; margin-right: auto }
+section > * { max-width: 1600px; margin-left: auto; margin-right: auto; color: white; }
 
 /* ============= TYPOGRAPHY ============ */
+
 
 h1 {
     font-size: var(--fs-xxxl);
     line-height: 1.2;
+    color: white;
 }
 
 h2 {
     font-size: var(--fs-xl);
     line-height: 1.2;
-    margin-top: 42px;
-    margin-bottom: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: white;
 }
 
 h3 {
-    font-size: var(--fs-lg);
-    margin-top: 48px; 
+    font-size: var(--fs-base);
+    margin-top: 2px; 
+    margin-top: 2px;
     margin-bottom: 4px;
     line-height: 1.2;
+    color: white;
 }
 
 p {
 	font-size: var(--fs-base);
     line-height: 1.7;
-	margin-bottom: 12px;
+	margin-bottom: 2px;
+    color: white;
 }
 
+.highlight-link{
+    background-color: var(--white-000);
+    color: var(--green-700);
+    padding: 3px 12px 6px 12px;
+    width: fit-content;
+}
+
+.button-link {
+    color: white; 
+    transition: color 0.3s ease;
+    text-decoration: none;
+    font-size: var(--fs-base);
+    transition: font-size 0.3s;
+}
+
+.button-link:hover {
+    color: red;
+    font-size: var(--fs-lg);
+}
