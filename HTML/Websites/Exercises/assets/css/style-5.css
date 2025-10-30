@@ -309,7 +309,7 @@ section h2:nth-child(1) { margin-top: 0 }
 
 /* Text paragraphs */
 p {
-    font-size: calc(var(--fs-base)* 1.1);
+    font-family: "Bitcount Grid Single", system-ui;;
     color: #000;
     line-height: 1.6;
     margin-bottom: 20px;
