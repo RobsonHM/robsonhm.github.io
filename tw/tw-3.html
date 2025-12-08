@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Content Blocks</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7; 
+        }
+    </style>
+</head>
+<body>
+
+    <section class="py-10 px-8 lg:px-64 bg-gray-100 rounded-none">
+
+        <div class="p-6 rounded-xl mb-8 bg-indigo-600 text-white shadow-lg">
+
+            <h2 class="mb-2 text-4xl lg:text-6xl font-semibold tracking-tight">
+                Section Title One
+            </h2>
+
+            <p class="mb-4 text-base lg:text-lg">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p class="mb-4 text-base lg:text-lg">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+
+        <div class="p-6 rounded-xl mb-8 bg-yellow-300 text-gray-900 shadow-lg">
+            <h2 class="mb-2 text-4xl lg:text-6xl font-semibold tracking-tight">
+                Focus on Responsiveness
+            </h2>
+            <p class="mb-4 text-base lg:text-lg">
+                This content block demonstrates the power of responsive design classes. Notice how the horizontal padding adapts dramatically when the viewport crosses the 1024px breakpoint, switching from px-8 to lg:px-64.
+            </p>
+            <p class="mb-4 text-base lg:text-lg">
+                The font sizes for both the heading and the paragraphs also change based on the screen size, ensuring readability and visual hierarchy across devices, from mobile phones to large desktops.
+            </p>
+        </div>
+
+        <div class="p-6 rounded-xl mb-8 bg-green-700 text-white shadow-lg">
+            <h2 class="mb-2 text-4xl lg:text-6xl font-semibold tracking-tight">
+                Spacing and Typography Rules
+            </h2>
+            <p class="mb-4 text-base lg:text-lg">
+                The vertical rhythm is controlled precisely by the required margin units. The h2 uses mb-2 (0.5rem), providing a snug fit before the content begins, while the paragraphs use mb-4 (1rem).
+            </p>
+            <p class="mb-4 text-base lg:text-lg">
+                The tight tracking on the h2, combined with the semibold weight, gives the title a distinct, modern, and impactful appearance, especially at the large text-6xl size.
+            </p>
+        </div>
+
+        <div class="p-6 rounded-xl bg-pink-300 text-gray-900 shadow-lg">
+            <h2 class="mb-2 text-4xl lg:text-6xl font-semibold tracking-tight">
+                Final Content Block
+            </h2>
+            <p class="mb-4 text-base lg:text-lg">
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada.
+            </p>
+            <p class="mb-4 text-base lg:text-lg">
+                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            </p>
+        </div>
+
+    </section>
+
+</body>
+</html>
