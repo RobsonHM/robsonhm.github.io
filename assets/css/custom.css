@@ -1,9 +1,9 @@
 
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
-header.theme-dark   { background-color: #0f172a }
-header.theme-dark  h1 { color: var(--sky-400); }
-section.theme-dark   { background-color: #0f172a }
-footer.theme-dark   { background-color: #0f172a }
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #000 }
+header.theme-dark   { background-color: #000 }
+header.theme-dark h1 {color: var(--h1-color, #267ed7); }
+section.theme-dark   { background-color: #000 }
+footer.theme-dark   { background-color: #000 }
 header .col-text h2, .col-1 > h3 { line-height: 1.8 }
 
 /* book store font */
