@@ -52,6 +52,11 @@
 
         
         </style>
+
+     <!-- Styles for Cookie Consent Popup Message  -->
+     <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -151,6 +156,25 @@
     <p>IN NO EVENT WILL the author BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES OF ANY TYPE WHATSOEVER RELATED TO OR ARISING FROM THIS WEBSITE ANY USE OF THIS WEBSITE OR OF ANY SITE OR RESOURCE LINKED TO, REFERENCED, OR ACCESSED THROUGH THIS WEBSITE, OR FOR THE USE OR DOWNLOADING OF, OR ACCESS TO, ANY MATERIALS, INFORMATION, PRODUCTS, OR SERVICES, INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, BUSINESS INTERRUPTION, LOST SAVINGS OR LOSS OF PROGRAMS OR OTHER DATA, EVEN IF the author IS EXPRESSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THIS EXCLUSION AND WAIVER OF LIABILITY APPLIES TO ALL CAUSES OF ACTION, WHETHER BASED ON CONTRACT, WARRANTY, TORT, OR ANY OTHER LEGAL THEORIES.</p>
 
     <p>Additional or different terms, conditions, and notices may apply to specific materials, information, products, software, and services offered through this website. In the event of any conflict, such additional or different terms, conditions, and notices will prevail over these Terms of Use. Please see the applicable agreement or notice.</p>
+
+
+    <!-- JavaScript for Cookie Consent Popup Message -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#000"
+            },
+            "button": {
+                "background": "#f1d600"
+            }
+        },
+        "content": {
+            "href": "https://username.github.io/privacy.html"
+        }
+    });
+    </script>
 
 
 </body>
